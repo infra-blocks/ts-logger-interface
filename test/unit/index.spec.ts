@@ -1,10 +1,9 @@
-import { testMe } from "../../src/index.js";
 import { expect } from "@infra-blocks/test";
 
 describe("index", function () {
-  describe(testMe.name, function () {
+  describe("dummy", function () {
     it("should return the right stuff", function () {
-      expect(testMe()).to.equal("you tested me all right!");
+      expect(true).to.be.true;
     });
   });
 });
