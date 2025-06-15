@@ -70,9 +70,4 @@ export type Logger = {
    * @returns
    */
   isErrorEnabled(): boolean;
-
-  /**
-   * Get or set the current log level.
-   */
-  level: LogLevel;
 };
