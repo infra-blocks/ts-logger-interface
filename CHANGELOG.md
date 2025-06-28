@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0] - 2025-06-28
+
+### Added
+
+- The `LOG_LEVELS` typesafe exported constant. This is for convenience so that
+client code does not have to list all the log levels explicitly themselves. An
+example use case is when using the `zod` `enum` parser. Instead of having
+`.enum(["trace", "debug", ...])`, one can just have `.enum(LOG_LEVELS)`.
+
 ## [0.2.0] - 2025-06-15
 
 ### Removed

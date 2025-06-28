@@ -1,5 +1,13 @@
 export type LogLevel = "trace" | "debug" | "info" | "warn" | "error";
 
+export const LOG_LEVELS: LogLevel[] = [
+  "trace",
+  "debug",
+  "info",
+  "warn",
+  "error",
+];
+
 export type Logger = {
   /**
    * Logs using the provided log level. Does nothing if the current log level does not
